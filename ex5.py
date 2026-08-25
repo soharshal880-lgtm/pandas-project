@@ -11,3 +11,4 @@ pivot_df = df.pivot(index="Name", columns="Subject", values="Marks")
 stacked = pivot_df.stack()
 transposed = pivot_df.T
 print(transposed)
+print("gaurav")
